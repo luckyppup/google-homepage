@@ -1,0 +1,77 @@
+.logo {
+    height: 130px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 170px;
+    left: 300px;
+}
+
+.search-bar {
+    height: 45px;
+    width: 435px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 300px;
+    left:65px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: lightgray;
+    font-size: 18px;
+    text-align: left;
+    text-indent: 1cm;
+}
+
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+
+}
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-indent: .5cm;
+    font-size: 14px;
+}
+
+.list2 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-indent: 1cm;
+    font-size: 14px;
+}
+.list3 {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    text-indent: 1cm;
+    font-size: 14px;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
